@@ -3,3 +3,9 @@ menu:
   About: /about
   Archives: /archives
   
+# mathjax
+math:
+  enable: true
+  specific: false
+  engine: mathjax
+  

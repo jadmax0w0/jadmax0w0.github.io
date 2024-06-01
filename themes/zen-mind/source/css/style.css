@@ -1,5 +1,33 @@
 @charset "utf-8";
 
+@font-face
+{
+    font-family: yuanheiti;
+    font-weight: 400;
+    src: url("../fonts/ResourceHanRoundedCN-Regular.ttf");
+}
+
+@font-face
+{
+    font-family: yuanheiti;
+    font-weight: 600;
+    src: url("../fonts/ResourceHanRoundedCN-Bold.ttf")
+}
+
+@font-face
+{
+    font-family: shouyuanheiti;
+    font-weight: 600;
+    src: url("../fonts/YSHaoShenTi-2.ttf")
+}
+
+::selection
+{
+    color: #fff;
+    background: rgba(0, 0, 0, 0.9);
+}
+
+
 :root
 {
     --font-color-0: #e00000;
@@ -18,7 +46,7 @@ p
 
 body
 {
-    font-family: "Montserrat", "SF UI Text", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+    font-family: "Montserrat", "SF UI Text", yuanheiti, "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     font-size: 16px;
     line-height: 1.75;
     letter-spacing: 0.6px;
@@ -153,6 +181,7 @@ a
 }
 .post-title
 {
+    font-family: shouyuanheiti, "Montserrat", "SF UI Text", "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     display: inline-block;
     font-size: 1.6rem;
     font-weight: 600;
@@ -288,9 +317,10 @@ a
 }
 .post-main-title
 {
+    font-family: shouyuanheiti, "Montserrat", "SF UI Text", "HarmonyOS Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Segoe UI", "Helvetica Neue", Helvetica, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
     flex: 0 0 100%;
     margin-bottom: 12px;
-    font-size: 1.6rem;
+    font-size: 2.0rem;
     font-weight: 600;
     line-height: 1.5;
     color: var(--font-color-1);
