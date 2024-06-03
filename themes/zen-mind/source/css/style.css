@@ -4,21 +4,21 @@
 {
     font-family: yuanheiti;
     font-weight: 400;
-    src: url("../fonts/ResourceHanRoundedCN-Regular.ttf");
+    src: url("../fonts/ResourceHanRoundedCN-Regular.woff");
 }
 
 @font-face
 {
     font-family: yuanheiti;
     font-weight: 600;
-    src: url("../fonts/ResourceHanRoundedCN-Bold.ttf")
+    src: url("../fonts/ResourceHanRoundedCN-Bold.woff")
 }
 
 @font-face
 {
     font-family: shouyuanheiti;
     font-weight: 600;
-    src: url("../fonts/YSHaoShenTi-2.ttf")
+    src: url("../fonts/YSHaoShenTi-2.woff")
 }
 
 ::selection
