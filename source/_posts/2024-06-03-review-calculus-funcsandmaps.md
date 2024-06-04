@@ -6,7 +6,7 @@ tags:
   - calculus
 ---
 
-> 整理到了幕布上：[链接待填 (尚未开放分享)]
+> 全文见幕布：https://www.mubu.com/doc/6hFoy-vrpNE
 
 ## 映射
 
