@@ -86,7 +86,7 @@ tags:
   在实际使用中，全连接层可由卷积操作实现：对前层是全连接的全连接层~~可以转化为卷积核为 1x1 的卷积~~ (前一层是全连接层，说明前一层的结果本身就是一个 $1\times v$ 的向量。此时全连接层：) 只相当于再加一个线性层：$\mathbb{R}^{1\times v} \times \mathbb{R}^{v \times w} = \mathbb{R}^{1\times w}$)；而前层是卷积层的全连接层可以转化为卷积核为 $hwc$ 的全局卷积，$h, w, c$ 分别为前层卷积结果的高、宽和通道数 (也就是前一层卷积层结果张量的总的元素数)。
 
 - 示例：
-  ![](./img/auto-driving-thesis-reading/cnn_egs.png)
+  ![](/images/auto-driving-thesis-reading/cnn_egs.png)
 
 -->
 
@@ -98,7 +98,7 @@ tags:
 
 - VGG-16 (项目中采用的网络结构)
 
-  ![](./img/auto-driving-thesis-reading/vgg-structures.png)
+  ![](/images/auto-driving-thesis-reading/vgg-structures.png)
 
   > ✨ 项目中只是采用了 VGG-16 网络的卷积池化层，并没有采用最后的三步全连接以及一步 softmax 层，取而代之的是一个平均池化层：
   >
